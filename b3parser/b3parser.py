@@ -422,7 +422,7 @@ class B3Parser( object ):
         # Windows --------------------------------------------------------------
         # https://msdn.microsoft.com/en-us/library/39cwe7zf(vs.71).aspx
         # http://msdn.microsoft.com/en-us/library/cdax410z%28VS.71%29.aspx
-        locale.setlocale( locale.LC_ALL, 'ptb' )
+        locale.setlocale( locale.LC_ALL, 'pt_BR.utf8' )
 
         regex_cab = re.compile( regex_cabecalho )
         regex_cau = re.compile( regex_cauda )
